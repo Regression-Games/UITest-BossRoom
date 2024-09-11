@@ -1,0 +1,11 @@
+{
+  "name":"Navigate UI",
+  "description":"Navigate and interact with the opening menu UI",
+  "segments": [
+    {"type":"Segment", "path":"BotSegments/1.json"},
+    {"type":"Segment", "path":"BotSegments/2.json"},
+    {"type":"Segment", "path":"BotSegments/3.json"},
+    {"type":"Segment", "path":"BotSegments/4.json"},
+    {"type":"Segment", "path":"BotSegments/5.json"}
+  ]
+}

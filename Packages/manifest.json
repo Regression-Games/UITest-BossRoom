@@ -24,6 +24,7 @@
     "com.unity.transport": "2.0.2",
     "com.unity.ugui": "1.0.0",
     "com.veriorpies.parrelsync": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync#bb3d5067e49e403d8b8ba15c036d313b4dd2c696",
+    "gg.regression.unity.bots": "https://github.com/Regression-Games/RGUnityBots.git?path=src/gg.regression.unity.bots#v0.0.27",
     "jp.hadashikick.vcontainer": "1.11.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

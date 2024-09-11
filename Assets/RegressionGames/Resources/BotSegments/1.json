@@ -1,0 +1,54 @@
+{
+"name":null,
+"description":null,
+"sessionId":"003b138189aa463898a47786c2949fda",
+"apiVersion":15,
+"endCriteria":[
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/Lobby Start Button/Text","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/UnityLogo/Room8Logo","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/UnityLogo/JHLogo","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/Title","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/UnityLogo","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"SettingsPanelCanvas/Settings Button","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"SettingsPanelCanvas/Quit Button","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/Profile Button/Text","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/UnityLogo/SFLogo","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/UnityLogo/UnityLogo","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/Lobby Start Button","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/IP Start Button","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/Profile Button","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/IP Start Button/Text","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_top_straight_2","apiVersion":1,"removedCount":0,"addedCount":9,"count":9,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_base_straight_1","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_floor1","apiVersion":1,"removedCount":0,"addedCount":8,"count":8,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_top_straight_1","apiVersion":1,"removedCount":0,"addedCount":3,"count":3,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_pebbles","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_roots/env_roots_LOD1","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_door_boss_head","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_base_straight_2","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_roots","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_floor2","apiVersion":1,"removedCount":0,"addedCount":4,"count":4,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_barrier/env_barrier_LOD1","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_torch","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_Door/env_DoorLOD","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_Door","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_barrier","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_spiderweb_1","apiVersion":1,"removedCount":0,"addedCount":1,"count":1,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_rock","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/FX_Torch_Fire/Fire","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/FX_Torch_Fire/Points","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}},
+{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/FX_Torch_Fire/Smoke","apiVersion":1,"removedCount":0,"addedCount":2,"count":2,"countRule":"NonZero"}}
+],
+"botAction":{"type":"InputPlayback","apiVersion":1,"data":{
+"apiVersion":1,
+"startTime":14.9410445,
+"inputData":{
+"apiVersion":1,
+"keyboard":[
+
+],
+"mouse":[
+{"apiVersion":1,"startTime":14.9410445,"screenSize":{"x":2132,"y":1199},"position":{"x":2105,"y":28},"worldPosition":null,"leftButton":false,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0,"y":0},"clickedObjectNormalizedPaths":[]}
+]
+}
+}}}

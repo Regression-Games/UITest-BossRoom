@@ -15,7 +15,9 @@
         "Unity.Netcode.TestHelpers.Runtime",
         "VContainer",
         "VContainer.EnableCodeGen",
-        "Unity.Collections"
+        "Unity.Collections",
+        "RegressionGames",
+        "RegressionGames.TestFramework"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
