@@ -1,0 +1,7 @@
+﻿{
+  "name":"Stability Test - Chaos Monkey",
+  "description":"Randomly perform specific actions to find bugs",
+  "segments": [
+    {"type":"Segment", "path":"BotSegments/explore/MonkeyBot.json"}
+  ]
+}

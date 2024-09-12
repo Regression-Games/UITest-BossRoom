@@ -1,0 +1,7 @@
+﻿{
+  "name":"Click Change Profile (OCR)",
+  "description":"Use OCR to click the profile button",
+  "segments": [
+    {"type":"Segment", "path":"BotSegments/cv/ClickChangeProfile.json"}
+  ]
+}

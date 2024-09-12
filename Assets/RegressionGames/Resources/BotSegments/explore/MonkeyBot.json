@@ -1,0 +1,43 @@
+﻿{
+  "name": "Monkey Bot",
+  "sessionId":"ba33a7f3290b4419b3f6f58dfb1e6e60",
+  "apiVersion":1,
+  "keyFrameCriteria":[
+    {"type":"ActionComplete","apiVersion":7,"transient":true,"data":{"apiVersion":11}}
+  ],
+  "botAction":{"type":"MonkeyBot","apiVersion":1,"data":{
+    "apiVersion": 5,
+    "actionInterval": 0.05,
+    "actionSettings": {
+      "ApiVersion": 1,
+      "DisabledActionPaths":[
+        "Unity.BossRoom.DebugCheats.DebugCheatsManager/DebugCheatsManager.cs/Keyboard.current.slashKey",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.GoToPostGame",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.HealPlayer",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.KillAllEnemies",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.KillTarget",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.SpawnBoss",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.SpawnEnemy",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.ToggleDoor",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.ToggleGodMode",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.ToggleSuperSpeed",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.TogglePortals",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager.ToggleTeleportMode",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel.Quit",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas.OnClickQuitButton",
+        "Unity UI/Button/BossRoom.Visual.UISettingsCanvas.OnClickSettingsButton",
+        "Unity UI/Button/QualityButton.SetQualitySettings",
+        "Unity UI/Input Field/Text Entry/IP Input Field",
+        "Unity UI/Input Field/Text Entry/JoinCodeInputField",
+        "Unity UI/Input Field/Text Entry/Port Input Field",
+        "Unity UI/Input Field/Text Submit/IP Input Field",
+        "Unity UI/Input Field/Text Submit/JoinCodeInputField",
+        "Unity UI/Input Field/Text Submit/Port Input Field",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.ProfileListItemUI.OnDeleteClick",
+        "Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.InitializeUI"
+      ],
+      "ActionProperties": {}
+    }
+  }
+  }
+}

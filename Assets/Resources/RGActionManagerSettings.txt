@@ -1,7 +1,8 @@
 {
 "ApiVersion":1,
 "DisabledActionPaths":[
-
+"Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas.OnClickQuitButton",
+"Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel.Quit"
 ],
 "ActionProperties":{
 

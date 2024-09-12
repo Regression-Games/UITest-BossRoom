@@ -1,0 +1,7 @@
+﻿{
+  "name":"Click Exit (CV)",
+  "description":"Use object detection to click the exit button",
+  "segments": [
+    {"type":"Segment", "path":"BotSegments/cv/ClickExitButton.json"}
+  ]
+}

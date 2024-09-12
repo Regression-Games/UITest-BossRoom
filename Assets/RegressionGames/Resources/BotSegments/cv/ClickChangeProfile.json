@@ -1,0 +1,22 @@
+﻿{
+  "name": "Text Detection: Change Profile",
+  "sessionId":"becf5dc4b49347bca8f74f61ff9f7d82",
+  "apiVersion":1,
+  "keyFrameCriteria":[
+    {"type":"CVText","apiVersion":7,"transient":false,"data":{"apiVersion":9, "text":"Change Profile", "textMatchingRule":"Contains", "textCaseRule":"Ignore", "withinRect":{"rect":{"x": 900, "y": 110, "width": 350, "height": 50}, "screenSize":{"x": 1656, "y": 724}} }}
+  ],
+  "botAction":{"type":"InputPlayback","apiVersion":1,"data":{
+    "apiVersion":1,
+    "startTime":0.0,
+    "inputData":{
+      "apiVersion":1,
+      "keyboard":[
+
+      ],
+      "mouse":[
+        {"apiVersion":1,"startTime":0.1561712,"screenSize":{"x":1656,"y":724},"position":{"x":800,"y":130},"worldPosition":null,"leftButton":false,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0,"y":0},"clickedObjectNormalizedPaths":[]},
+        {"apiVersion":1,"startTime":0.2554217,"screenSize":{"x":1656,"y":724},"position":{"x":800,"y":130},"worldPosition":null,"leftButton":true,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0,"y":0},"clickedObjectNormalizedPaths":["UI Canvas/UnityLogo","UI Canvas/Profile Button/Text","UI Canvas/LobbyPopup","UI Canvas/Profile Button","UI Canvas/ProfilePopup"]},
+        {"apiVersion":1,"startTime":0.3890519,"screenSize":{"x":1656,"y":724},"position":{"x":800,"y":130},"worldPosition":null,"leftButton":false,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0,"y":0},"clickedObjectNormalizedPaths":["UI Canvas/UnityLogo","UI Canvas/Profile Button/Text","UI Canvas/LobbyPopup","UI Canvas/Profile Button","UI Canvas/ProfilePopup"]}
+      ]
+    }}}
+}

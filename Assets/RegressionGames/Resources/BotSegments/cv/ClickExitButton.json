@@ -1,0 +1,19 @@
+﻿{
+  "name": "Object Detection: Click Exit Game Button",
+  "sessionId": "becf5dc4b49347bca8f74f61ff9f7d82",
+  "apiVersion": 1,
+  "keyFrameCriteria": [],
+  "botAction":{
+    "apiVersion":1,
+    "type":"Mouse_ObjectDetection",
+    "data": {
+      "apiVersion":15,
+      "textQuery": "X in a square",
+      "actions": [
+        {"leftButton":false,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0.0,"y":0.0},"duration":2.0 },
+        {"leftButton":true,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0.0,"y":0.0} },
+        {"leftButton":false,"middleButton":false,"rightButton":false,"forwardButton":false,"backButton":false,"scroll":{"x":0.0,"y":0.0} }
+      ]
+    }
+  }
+}

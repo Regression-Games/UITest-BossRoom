@@ -1,0 +1,872 @@
+{
+  "ApiVersion": 2,
+  "Actions": [
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UI.HeroActionBar/HeroActionBar.cs/Input.GetKeyUp(KeyCode.Alpha4)/KeyCode.Alpha4"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UI.HeroActionBar, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha4"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MousePositionAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UI.UITooltipDetector/UITooltipDetector.cs/Input.mousePosition"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UI.UITooltipDetector, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_VECTOR2","minValueX":0,"minValueY":0,"maxValueX":1,"maxValueY":1},
+"positionType":"NON_UI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MousePositionAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.Actions.AoeActionInput/AoeActionInput.cs/Input.mousePosition"],
+"objectTypeName":"Unity.BossRoom.Gameplay.Actions.AoeActionInput, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_VECTOR2","minValueX":0,"minValueY":0,"maxValueX":1,"maxValueY":1},
+"positionType":"NON_UI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MouseButtonAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.Actions.AoeActionInput/AoeActionInput.cs/Input.GetMouseButtonDown(0)/0","Unity.BossRoom.Gameplay.Actions.AoeActionInput/AoeActionInput.cs/Input.GetMouseButtonUp(0)/0"],
+"objectTypeName":"Unity.BossRoom.Gameplay.Actions.AoeActionInput, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"mouseButtonFunc":{"funcType":"TYPE_CONSTANT","data":"0"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MousePositionAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/UnityEngine.Input.mousePosition/Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Physics.RaycastNonAlloc(ray,\n                        k_CachedHit,\n                        k_MouseInputRaycastDistance,\n                        m_GroundLayerMask)"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_VECTOR2","minValueX":0,"minValueY":0,"maxValueX":1,"maxValueY":1},
+"positionType":"COLLIDER_3D",
+"layerMasks":[
+{"funcType":"TYPE_MEMBER_ACCESS","data":"{\"MemberAccesses\":[{\"MemberType\":4,\"DeclaringType\":\"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\",\"MemberName\":\"m_GroundLayerMask\"}]}"}
+]
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MousePositionAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/UnityEngine.Input.mousePosition/Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Physics.RaycastNonAlloc(ray, k_CachedHit, k_MouseInputRaycastDistance, m_ActionLayerMask)"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_VECTOR2","minValueX":0,"minValueY":0,"maxValueX":1,"maxValueY":1},
+"positionType":"COLLIDER_3D",
+"layerMasks":[
+{"funcType":"TYPE_MEMBER_ACCESS","data":"{\"MemberAccesses\":[{\"MemberType\":4,\"DeclaringType\":\"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\",\"MemberName\":\"m_ActionLayerMask\"}]}"}
+]
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha1)/KeyCode.Alpha1","Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyUp(KeyCode.Alpha1)/KeyCode.Alpha1"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha1"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha2)/KeyCode.Alpha2","Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyUp(KeyCode.Alpha2)/KeyCode.Alpha2"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha2"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha3)/KeyCode.Alpha3","Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyUp(KeyCode.Alpha3)/KeyCode.Alpha3"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha3"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha5)/KeyCode.Alpha5"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha5"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha6)/KeyCode.Alpha6"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha6"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha7)/KeyCode.Alpha7"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha7"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.LegacyKeyAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetKeyDown(KeyCode.Alpha8)/KeyCode.Alpha8"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"keyCodeFunc":{"funcType":"TYPE_CONSTANT","data":"keycode:Alpha8"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MouseButtonAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetMouseButtonDown(1)/1"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"mouseButtonFunc":{"funcType":"TYPE_CONSTANT","data":"1"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.MouseButtonAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetMouseButtonDown(0)/0","Unity.BossRoom.Gameplay.UserInput.ClientInputSender/ClientInputSender.cs/Input.GetMouseButton(0)/0"],
+"objectTypeName":"Unity.BossRoom.Gameplay.UserInput.ClientInputSender, Unity.BossRoom.Gameplay, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"mouseButtonFunc":{"funcType":"TYPE_CONSTANT","data":"0"}
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Visual.PartyHUD.SelectPartyMember"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Visual.PartyHUD.SelectPartyMember"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Hero HP Slider"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Hero HP Slider"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Hero HP Slider"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Hero HP Slider"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 1"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 1"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 1"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 1"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 2"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 2"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 2"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 2"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 3"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 3"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 3"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 3"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 4"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 4"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 4"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 4"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 5"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 5"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 5"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 5"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 6"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 6"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 6"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 6"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Ally HP Slider 7"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 7"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Ally HP Slider 7"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Ally HP Slider 7"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Visual.HeroEmoteBar.OnButtonClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Visual.HeroEmoteBar.OnButtonClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/UnityEngine.GameObject.SetActive"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"UnityEngine.GameObject.SetActive"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.SpawnEnemy"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.SpawnEnemy"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.SpawnBoss"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.SpawnBoss"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.KillTarget"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.KillTarget"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.KillAllEnemies"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.KillAllEnemies"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleGodMode"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleGodMode"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.HealPlayer"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.HealPlayer"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleSuperSpeed"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleSuperSpeed"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleTeleportMode"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleTeleportMode"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleDoor"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.ToggleDoor"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.TogglePortals"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.TogglePortals"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.DebugCheats.DebugCheatsManager.GoToPostGame"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.DebugCheats.DebugCheatsManager.GoToPostGame"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Visual.UISettingsCanvas.OnClickSettingsButton"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Visual.UISettingsCanvas.OnClickSettingsButton"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas.OnClickQuitButton"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas.OnClickQuitButton"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/MasterVolume"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"MasterVolume"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/MasterVolume"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"MasterVolume"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/MusicVolume"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"MusicVolume"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/MusicVolume"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"MusicVolume"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/QualityButton.SetQualitySettings"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"QualityButton.SetQualitySettings"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel.Quit"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel.Quit"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Client.ClientCharSelectState.OnPlayerClickedReady"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Client.ClientCharSelectState.OnPlayerClickedReady"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Client.UICharSelectPlayerStateBox.OnClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Client.UICharSelectPlayerStateBox.OnClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/RoomNameBox.CopyToClipboard"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"RoomNameBox.CopyToClipboard"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState.OnStartClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState.OnStartClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState.OnDirectIPClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState.OnDirectIPClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState.OnChangeProfileClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState.OnChangeProfileClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.LobbyUIMediator.RegenerateName"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.LobbyUIMediator.RegenerateName"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.LobbyUIMediator.ToggleJoinLobbyUI"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.LobbyUIMediator.ToggleJoinLobbyUI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.LobbyUIMediator.ToggleCreateLobbyUI"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.LobbyUIMediator.ToggleCreateLobbyUI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/Private Lobby Toggle"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Private Lobby Toggle",
+"normalizedDropdownName":null
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Press/Lobby Name Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Lobby Name Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldTextEntryAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Entry/Lobby Name Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_INT","minValue":0,"maxValue":102},
+"normalizedGameObjectName":"Lobby Name Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldSubmitAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Submit/Lobby Name Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Lobby Name Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.CreateLobbyUI.OnCreateClick"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.CreateLobbyUI.OnCreateClick"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.LobbyListItemUI.OnClick"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.LobbyListItemUI.OnClick"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Scrollbar/Press/Scrollbar"],
+"objectTypeName":"UnityEngine.UI.Scrollbar, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Scrollbar"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Scrollbar/Release/Scrollbar"],
+"objectTypeName":"UnityEngine.UI.Scrollbar, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Scrollbar"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.JoinLobbyUI.OnRefresh"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.JoinLobbyUI.OnRefresh"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.JoinLobbyUI.OnQuickJoinClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.JoinLobbyUI.OnQuickJoinClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Press/JoinCodeInputField"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"JoinCodeInputField"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldTextEntryAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Entry/JoinCodeInputField"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_INT","minValue":0,"maxValue":102},
+"normalizedGameObjectName":"JoinCodeInputField"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldSubmitAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Submit/JoinCodeInputField"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"JoinCodeInputField"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Client.UI.JoinLobbyUI.OnJoinButtonPressed"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Client.UI.JoinLobbyUI.OnJoinButtonPressed"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Scripts.Shared.Net.UnityServices.Game.LobbyUIManager.Hide"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Scripts.Shared.Net.UnityServices.Game.LobbyUIManager.Hide"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.RegenerateName"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.RegenerateName"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.ToggleJoinIPUI"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.ToggleJoinIPUI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.ToggleCreateIPUI"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.ToggleCreateIPUI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Press/IP Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"IP Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldTextEntryAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Entry/IP Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_INT","minValue":0,"maxValue":102},
+"normalizedGameObjectName":"IP Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldSubmitAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Submit/IP Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"IP Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Press/Port Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Port Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldTextEntryAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Entry/Port Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_INT","minValue":0,"maxValue":102},
+"normalizedGameObjectName":"Port Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldSubmitAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Submit/Port Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Port Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPCreationUI.OnCreateClick"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPCreationUI.OnCreateClick"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPJoiningUI.OnJoinButtonPressed"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPJoiningUI.OnJoinButtonPressed"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.DisconnectIPWindow.OnCancelJoinButtonPressed"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.DisconnectIPWindow.OnCancelJoinButtonPressed"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.Hide"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.Hide"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.CancelConnectingWindow"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator.CancelConnectingWindow"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Press/Profile Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Profile Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldTextEntryAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Entry/Profile Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_INT","minValue":0,"maxValue":102},
+"normalizedGameObjectName":"Profile Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldSubmitAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field/Text Submit/Profile Input Field"],
+"objectTypeName":"UnityEngine.UI.InputField, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Profile Input Field"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.OnNewProfileButtonPressed"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.OnNewProfileButtonPressed"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.Hide"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.Hide"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.ProfileListItemUI.OnSelectClick"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.ProfileListItemUI.OnSelectClick"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.ProfileListItemUI.OnDeleteClick"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.ProfileListItemUI.OnDeleteClick"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.InitializeUI"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.UIProfileSelector.InitializeUI"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Visual.PostGameUI.OnPlayAgainClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Visual.PostGameUI.OnPlayAgainClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/BossRoom.Visual.PostGameUI.OnMainMenuClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"BossRoom.Visual.PostGameUI.OnMainMenuClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/Slider"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Slider"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/Slider"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Slider"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.Gameplay.UI.NetworkSimulationUIMediator.Hide"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.Gameplay.UI.NetworkSimulationUIMediator.Hide"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field (TMP)/Press/LagSpikeDuration InputField"],
+"objectTypeName":"TMPro.TMP_InputField, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"LagSpikeDuration InputField"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldTextEntryAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field (TMP)/Text Entry/LagSpikeDuration InputField"],
+"objectTypeName":"TMPro.TMP_InputField, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_INT","minValue":0,"maxValue":102},
+"normalizedGameObjectName":"LagSpikeDuration InputField"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIInputFieldSubmitAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Input Field (TMP)/Text Submit/LagSpikeDuration InputField"],
+"objectTypeName":"TMPro.TMP_InputField, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"LagSpikeDuration InputField"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.Gameplay.UI.NetworkSimulationUIMediator.TriggerLagSpike"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.Gameplay.UI.NetworkSimulationUIMediator.TriggerLagSpike"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/TMP_Dropdown/ScenariosDropdown"],
+"objectTypeName":"TMPro.TMP_Dropdown, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"ScenariosDropdown"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/ScenariosDropdown Item"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Item",
+"normalizedDropdownName":"ScenariosDropdown"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.Utils.NetworkSimulatorUIMediator.TriggerScenario"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.Utils.NetworkSimulatorUIMediator.TriggerScenario"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIObjectPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/TMP_Dropdown/PresetDropdown"],
+"objectTypeName":"TMPro.TMP_Dropdown, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"PresetDropdown"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/PresetDropdown Item"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Item",
+"normalizedDropdownName":"PresetDropdown"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.BossRoom.Gameplay.UI.NetworkSimulationUIMediator.SimulateDisconnect"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.BossRoom.Gameplay.UI.NetworkSimulationUIMediator.SimulateDisconnect"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/MainMenuUI.OnHostClicked"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"MainMenuUI.OnHostClicked"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/IP RadioButton"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"IP RadioButton",
+"normalizedDropdownName":null
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/Photon Relay RadioButton"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Photon Relay RadioButton",
+"normalizedDropdownName":null
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/Unity Relay RadioButton"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"Unity Relay RadioButton",
+"normalizedDropdownName":null
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UIButtonPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Button/Unity.Multiplayer.Samples.BossRoom.Visual.PopupPanel.OnConfirmClick"],
+"objectTypeName":"UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"eventListenerName":"Unity.Multiplayer.Samples.BossRoom.Visual.PopupPanel.OnConfirmClick"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderPressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Press/UIHealth"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"UIHealth"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UISliderReleaseAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Slider/Release/UIHealth"],
+"objectTypeName":"UnityEngine.UI.Slider, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_FLOAT","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"UIHealth"
+},
+    {
+"actionTypeName":"RegressionGames.ActionManager.Actions.UITogglePressAction, RegressionGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+"paths":["Unity UI/Toggle/UIRadioButton"],
+"objectTypeName":"UnityEngine.UI.Toggle, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+"parameterRange":{"type":"RANGE_BOOL","minValue":0,"maxValue":1},
+"normalizedGameObjectName":"UIRadioButton",
+"normalizedDropdownName":null
+}
+  ]
+}
