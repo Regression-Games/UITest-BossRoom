@@ -5,6 +5,7 @@ using RegressionGames.Types;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
+[Category("E2ETests")]
 public class NavigateUITest
 {
 
