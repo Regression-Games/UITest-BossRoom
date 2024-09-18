@@ -2,6 +2,7 @@ using System.Collections;
 using NUnit.Framework;
 using RegressionGames;
 using RegressionGames.Types;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
@@ -16,6 +17,9 @@ public class NavigateUITest
         // ENABLE THIS ON MAC - Unity has a bug where errors are printed when taking screenshots
         // for recordings on Mac. This will suppress those errors so the test can pass properly.
         LogAssert.ignoreFailingMessages = true;
+        
+        // Screen.SetResolution(640, 480, true);
+        // yield return null;
 
         // Define which bot sequence to use
         string sequencePath = "BotSequences/NavigateUI.json";

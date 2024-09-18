@@ -20,7 +20,6 @@
 {"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"UI Canvas/IP Start Button/Text","apiVersion":1,"removedCount":0,"addedCount":0,"count":1,"countRule":"NonZero"}},
 {"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_top_straight_2","apiVersion":1,"removedCount":0,"addedCount":0,"count":9,"countRule":"NonZero"}},
 {"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_base_straight_1","apiVersion":1,"removedCount":0,"addedCount":0,"count":2,"countRule":"NonZero"}},
-{"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_floor1","apiVersion":1,"removedCount":0,"addedCount":0,"count":1,"countRule":"GreaterThanEqual"}},
 {"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/wall1_top_straight_1","apiVersion":1,"removedCount":0,"addedCount":0,"count":3,"countRule":"NonZero"}},
 {"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_pebbles","apiVersion":1,"removedCount":0,"addedCount":0,"count":2,"countRule":"NonZero"}},
 {"type":"NormalizedPath","apiVersion":7,"transient":true,"data":{"path":"CharSel_Background/env_roots/env_roots_LOD1","apiVersion":1,"removedCount":0,"addedCount":0,"count":2,"countRule":"NonZero"}},
