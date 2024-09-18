@@ -29,8 +29,9 @@ public class NavigateUITest
         yield return RGTestUtils.StartBotSequence(sequencePath, result => sequenceResult = result);
 
         // Print out the recording path for viewing later
-        RGDebug.LogInfo("Played back and recorded the bot sequence - saved to " + sequenceResult.saveLocation);
+        Assert.IsNotNull(sequenceResult);
         Assert.IsNotNull(sequenceResult.saveLocation);
+        RGDebug.LogInfo("Played back and recorded the bot sequence - saved to " + sequenceResult.saveLocation);
 
     }
 }
